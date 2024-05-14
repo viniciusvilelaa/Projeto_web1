@@ -1,2 +1,4 @@
-# Projeto_web1
-Repositório para desenvolvimento do projeto da matéria de Desenvolvimento Web 1
+# Projeto Landing Page + Portfolio para disciplina de WEB1 
+
+h2 teste
+
