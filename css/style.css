@@ -174,3 +174,26 @@ section#habilidades .language-box img{
 section#habilidades .language-box:hover{
     transform: scale(1.1);
 }
+
+#experiencia{
+    display: flex;
+    width: 100%;
+    background-color: #4D4D4D;
+    
+    padding-top: 1rem;
+    margin: 0;
+    
+    
+}
+
+
+#experiencia img{
+    margin-left: 4rem;
+    margin-right: 2rem;
+    width: 30rem;
+    
+}
+
+.exp-right{
+    width: 50%;
+}
