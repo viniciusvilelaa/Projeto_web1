@@ -17,11 +17,12 @@
         <div class="navbar">
             <p>LOGOTIPO</p>
             <div class="menu">
-                <a href="Home">Home</a>
-                <a href="Desc">Descrição</a>
+                <a href="Sobre">Sobre mim</a>
+                <a href="Habi">Habilidades</a>
                 <a href="Exp">Experiência</a>
-                <a href="Contato">Contato</a>
-                <a href="Projetos" id="Projeto-btn">Projetos</a>
+                <a href="Cont">Contato</a>
+                <a href="https://github.com/viniciusvilelaa" id="Projeto-btn" target="_blank">Projetos</a>
+                
             </div>
         </div>
     </header>
@@ -30,7 +31,7 @@
         <div class="hero-left">
             <p>Vinicius Vilela</p>
             <p id="dev-text">Desenvolvedor Web</p>
-            <p id="Projeto-btn">Projetos</p>
+            <a id="Projeto-btn" href="https://github.com/viniciusvilelaa" target="_blank" >Projetos</a>
         </div>
         <div class="hero-right">
             <img src="assets/profile.png" alt="x">
@@ -98,26 +99,37 @@
                 <div class="form-example">
                   <input type="text" name="name" id="name" required placeholder="Nome"/>
                 </div>
-                <div class="form-example">
+
+                <div>
                   <input type="email" name="email" id="email" required placeholder="Email" />
                 </div>
+
                 <div class="form-example">
                     <input type="email" name="celular" id="celular" required placeholder="Celular" />
                 </div>
               </form>
         </div>
         <div class="formula-right">
-            <div class="form-example">
-                <textarea name="mensagem" id="mensagem"></textarea>
+            <div class="form-text">
+                <textarea name="mensagem" id="mensagem" required placeholder="Escreva sua mensagem aqui!"></textarea>
             </div>
-            <div class="form-example">
-                <input type="submit" value="Subscribe!" />
-              </div>
+            <div class="form-submit">
+                <input type="submit" value="Enviar!" />
+            </div>
         </div>
         
     </section>
-
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-text">
+                <p>Vinicius Vilela</p>
+                <p>Desenvolvedor Front-End</p>
+                <p style="display: inline-block">Copyright ©&nbsp</p><p style="display: inline-block"  id="year"></p><p style="display: inline-block;"> &nbsp- Todos os direitos reservados. </p>
+            </div>
+            
+        </div>
+    </footer>
     
-
+    <script src="main.js"></script>
 </body>
 </html>

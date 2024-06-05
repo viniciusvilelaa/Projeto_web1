@@ -180,7 +180,7 @@ section#habilidades .language-box:hover{
     display: flex;
     padding-top: 2rem;
     justify-content: space-around;
-    
+    padding-bottom: 2rem;
     
     
     
@@ -216,12 +216,74 @@ section#habilidades .language-box:hover{
 #form-section{
     box-shadow: inset 0px 0px 17px 6px rgba(0,0,0,0.1);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    height: 10rem;
+    height: 20rem;
     font-family: 'inter';
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#form-section p{
+    color: var(--second-color );
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.formula-left input{
+    background-color: #D9D9D9;
+    border-style: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 15rem;
+    box-shadow: 3px 10px 22px -8px rgba(0,0,0,0.75);
 }
 
 .formula-left form div{
-    margin-top: 1rem;
+    margin-top: 2rem;
+    
 }
+
+.form-submit input{
+    border-style: none;
+    box-shadow: 0px 0px 4px 0px #6C4CAF;
+	background-color: var(--first-color);
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'inter';
+	font-size:17px;
+	padding:10px 26px;
+	text-decoration:none;
+}
+
+.form-text textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    font-size: 16px;
+    resize: none;
+    border-style: none;
+    box-shadow: 3px 10px 22px -8px rgba(0,0,0,0.75);
+    margin-bottom: 1rem;
+    
+}
+
+#footer{
+    background: var(--first-color);;
+    padding: 3rem 0;
+    text-align: center;
+    
+}
+
+#footer p{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
