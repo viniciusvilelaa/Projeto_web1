@@ -12,6 +12,11 @@
     }
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 /*Variables*/
 :root{
     --first-color: #6C4CAF;
@@ -19,12 +24,6 @@
 
 }
 
-/* Scrollbar */
-/*::-webkit-scrollbar{
-    width: 10px;
-    background: none;
-    border-radius: 10px;
-}*/
 
 header{
     box-shadow: 0px 3px 17px -6px rgba(0,0,0,0.75);
@@ -34,12 +33,21 @@ header{
     z-index: 1000;
 }
 .navbar{
+    width: 100%;
     display: flex;
-    margin: 0 4rem 0 4rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 4rem;
+    z-index: 1000;
+    transition: 0.3s;
+    position: fixed;
+    backdrop-filter: blur(20px);
     
+}
+
+.sticky{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 20px rgb( 0 0 0 / 10%);
 }
 
 .navbar p{
@@ -213,7 +221,7 @@ section#habilidades .language-box:hover{
     
 }
 
-#form-section{
+/*#form-section{
     box-shadow: inset 0px 0px 17px 6px rgba(0,0,0,0.1);
     display: flex;
     justify-content: space-evenly;
@@ -222,12 +230,29 @@ section#habilidades .language-box:hover{
     font-family: 'inter';
     padding-top: 1rem;
     padding-bottom: 1rem;
+}*/
+
+#form-section{
+    box-shadow: inset 0px 0px 17px 6px rgba(0,0,0,0.1);
+    font-family: 'inter';
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+
 }
 
 #form-section p{
-    color: var(--second-color );
+    color: var(--second-color);
     font-size: 2rem;
     font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     
 }
 
@@ -237,11 +262,13 @@ section#habilidades .language-box:hover{
     border-radius: 10px;
     padding: 0.5rem;
     width: 15rem;
+    height: 1.5rem;
     box-shadow: 3px 10px 22px -8px rgba(0,0,0,0.75);
+    font-weight: 600;
 }
 
 .formula-left form div{
-    margin-top: 2rem;
+    margin-bottom: 2rem;
     
 }
 
@@ -260,12 +287,14 @@ section#habilidades .language-box:hover{
 }
 
 .form-text textarea{
-    width: 100%;
+    width: 20rem;
     height: 150px;
     padding: 12px 20px;
     border-radius: 10px;
     background-color: #d9d9d9;
+    font-family: 'inter';
     font-size: 16px;
+    font-weight: 600;
     resize: none;
     border-style: none;
     box-shadow: 3px 10px 22px -8px rgba(0,0,0,0.75);

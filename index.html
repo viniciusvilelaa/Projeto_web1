@@ -14,13 +14,13 @@
 </head>
 <body>
     <header>
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <p>LOGOTIPO</p>
             <div class="menu">
-                <a href="Sobre">Sobre mim</a>
-                <a href="Habi">Habilidades</a>
-                <a href="Exp">Experiência</a>
-                <a href="Cont">Contato</a>
+                <a href="#desc-section">Sobre mim</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#experiencia">Experiência</a>
+                <a href="#form-section">Contato</a>
                 <a href="https://github.com/viniciusvilelaa" id="Projeto-btn" target="_blank">Projetos</a>
                 
             </div>
@@ -39,7 +39,7 @@
 
     </section>
 
-    <section class="desc-section">
+    <section class="desc-section" id="#desc-section">
         <div class="desc-container">
             <h1>Sobre Mim</h1>
             <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus placeat voluptatibus distinctio necessitatibus totam veniam enim reprehenderit. Laudantium consectetur blanditiis quod sapiente eveniet doloremque veritatis deserunt. Maxime sint ipsam unde?</P>
@@ -79,7 +79,7 @@
     </section>
 
     
-
+    
     <section id="experiencia">
         <div class="img">
             <img src="assets/billboard.png" alt="x">
@@ -90,33 +90,37 @@
             <p>Logos das empresas</p>
         </div>
     </section>
-
+    
+    
     <section id="form-section">
+        <p>Entre em contato</p>
+        <div class="form-container">
+            <div class="formula-left">
+            
+                <form action="" method="get" class="form-example">
+                    <div class="form-example">
+                      <input type="text" name="name" id="name" required placeholder="Nome"/>
+                    </div>
+    
+                    <div>
+                      <input type="email" name="email" id="email" required placeholder="Email" />
+                    </div>
+    
+                    <div class="form-example">
+                        <input type="email" name="celular" id="celular" required placeholder="Celular" />
+                    </div>
+                  </form>
+            </div>
+            <div class="formula-right">
+                <div class="form-text">
+                    <textarea name="mensagem" id="mensagem" required placeholder="Escreva sua mensagem aqui!"></textarea>
+                </div>
+                <div class="form-submit">
+                    <input type="submit" value="Enviar!" />
+                </div>
+            </div>
+        </div>
         
-        <div class="formula-left">
-            <p>Entre em contato</p>
-            <form action="" method="get" class="form-example">
-                <div class="form-example">
-                  <input type="text" name="name" id="name" required placeholder="Nome"/>
-                </div>
-
-                <div>
-                  <input type="email" name="email" id="email" required placeholder="Email" />
-                </div>
-
-                <div class="form-example">
-                    <input type="email" name="celular" id="celular" required placeholder="Celular" />
-                </div>
-              </form>
-        </div>
-        <div class="formula-right">
-            <div class="form-text">
-                <textarea name="mensagem" id="mensagem" required placeholder="Escreva sua mensagem aqui!"></textarea>
-            </div>
-            <div class="form-submit">
-                <input type="submit" value="Enviar!" />
-            </div>
-        </div>
         
     </section>
     <footer id="footer">
