@@ -11,7 +11,7 @@ Este repositório é referente ao projeto realizado para a disciplina de Desenvo
 
 **Front-end:** HTML, CSS e Javascript
 
-**Back-end(poderá ser utilizado posteriormente):** Node e Angular
+**Futuramente integrarei:** React e Node.j
 
 
 ## Links
